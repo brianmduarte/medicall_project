@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/medicall_project/assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/7a192e5eff.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menuMobile").addEventListener("click", function() {
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+        });
+};
+    </script>
+    <title>Medicall - Projeto </title>
+</head>
+<body>
+    
+<header>
+    <div class="container">
+        <div class="logomarca">
+            <a href="#"> <img src="/medicall_project/assets/image/307e6906c251d91bb6202b3dd4736d7a.jpg" width="110px" alt="Logo marca da empresa" title="LogoMarcaMedical"></a><span>Medicall</span>
+        </div>
+
+         <div class="menu">
+            <nav>
+                <div class="menuMobile">
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                </div>
+                <ul>
+                    <li class="active-menu"><a href="#">INÍCIO</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">PLANOS</a></li>
+                    <li><a href="#">GALERIA</a></li>
+                    <li><a href="#">CLIENTES</a></li>
+                    <li><a href="#">CONTATOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+ 
+<section id="banner">
+    <div class="container column">
+        <div class="banner_headline">
+            <h1>Top notch experience</h1>
+            <h2>Medicall is a responsive template perfect for all screen sizes</h2>
+        </div>
+
+
+          <div class="banner_options">
+            <div class="banner_1">
+                <div class="banner_title"> Emergency Case</div>
+                <div class="banner_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, asperiores. Inventore provident ab tempore. Vero autem odit soluta perspiciatis nulla aliquid possimus. </div>
+                <a href="#">Read more</a>
+            </div>
+                
+            <div class="banner_2">
+                <div class="banner_title"> Doctors Timetable</div>
+                <div class="banner_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, asperiores. Inventore provident ab tempore. Vero autem odit soluta perspiciatis nulla aliquid possimus.</div>
+                <a href="#">Read more</a>
+            </div>
+            
+            <div class="banner_3">
+                <div class="banner_title"> Opening Hours</div>
+                
+                <div class="banner_hours">Monday - Friday <span id="monday">8:00 - 17:00 </span> </div>
+                <div class="banner_hours">Saturday <span id="saturday">9:30 - 17:30</span> </div>
+                <div class="banner_hours">Sunday <span id="sunday">9:30 - 15:00</span> </div>
+                </div>
+            </div>
+
+         </div>
+    </div>
+</section> 
+
+<section id="geral">
+    <div class="container">
+        <section>
+            <div class="widget">
+                <div class="widget_title">
+                    <div class="widget_title_text"> Latest News</div>
+                    <div class="widget_title_bar"></div>
+                </div>
+                <div class="widget_body flex">
+                
+                    <!-- Primeira notícia-->
+                    
+                    <article>
+                        <a href="#">
+                            <div class="news_data">
+                                <div class="news_posted_at">20 Jan 01 </div>
+                                <div class="news_comments">5 </div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="/medicall_project/assets/image/national-cancer-institute-tl447mekwuQ-unsplash.jpg" alt="atendimento" title="Tratamento para o câncer">
+                            </div>
+                            <div class="news_title">
+                                Tratamento para o Câncer
+                            </div>
+                            <div class="news_resume">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, distinctio possimus quaerat excepturi repellat dolorem eius perspiciatis veniam quae eum porro, nulla necessitatibus odio est iusto inventore expedita perferendis fugit!
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, distinctio possimus quaerat excepturi repellat dolorem eius perspiciatis veniam quae eum porro, nulla necessitatibus odio est iusto inventore expedita perferendis fugit!
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <!-- Segunda notícia-->
+                    
+                    <article>
+                        <a href="#">
+                            <div class="news_data">
+                                <div class="news_posted_at">20 Jan 01 </div>
+                                <div class="news_comments">5 </div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="/medicall_project/assets/image/national-cancer-institute-tl447mekwuQ-unsplash.jpg"  alt="cirurgia" title="Médicos fazendo cirurgia em paciente">
+                            </div>
+                            <div class="news_title">
+                                Cirurgias Avançadas
+                            </div>
+                            <div class="news_resume">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, distinctio possimus quaerat excepturi repellat dolorem eius perspiciatis veniam quae eum porro, nulla necessitatibus odio est iusto inventore expedita perferendis fugit!
+                            </div>
+                        </a>
+                    </article>
+                    
+                    <!-- Terceira notícia-->
+
+                     <article>
+                        <a href="#">
+                            <div class="news_data">
+                                <div class="news_posted_at">20 Jan 01 </div>
+                                <div class="news_comments">5 </div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="/medicall_project/assets/image/mufid-majnun-oI20ehIGNd4-unsplash.jpg" alt="Coronavirus" title="Amostra de teste rápido">
+                            </div>
+                            <div class="news_title">
+                                Novidades sobre o Coronavírus
+                            </div>
+                            <div class="news_resume">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, distinctio possimus quaerat excepturi repellat dolorem eius perspiciatis veniam quae eum porro, nulla necessitatibus odio est iusto inventore expedita perferendis fugit!
+                            </div>
+                        </a>
+                    </article>
+
+                     <!-- Quarta notícia-->
+
+                     <article>
+                        <a href="#">
+                            <div class="news_data">
+                                <div class="news_posted_at">20 Jan 01 </div>
+                                <div class="news_comments">5 </div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="/medicall_project/assets/image/mufid-majnun-oI20ehIGNd4-unsplash.jpg" alt="Medicina" title="Estudante de medicina">
+                            </div>
+                            <div class="news_title">
+                                Medicina: a profissão do futuro
+                            </div>
+                            <div class="news_resume">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, distinctio possimus quaerat excepturi repellat dolorem eius perspiciatis veniam quae eum porro, nulla necessitatibus odio est iusto inventore expedita perferendis fugit!
+                            </div>
+                        </a>
+                    </article>
+
+
+                  </div>
+            </div>
+        </section>
+
+         <aside>
+            <div class="widget">
+                <div class="widget_title">
+                    <div class="widget_title_text"> Departments</div>
+                    <div class="widget_title_bar"></div>
+                    <div class="conteudo">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                 </div>
+                <div class="widget_body">
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text"> Make An Appointment</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <h5> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum sequi. Natus molestiae alias iusto obcaecati. </h5>
+                        <div class="contatos">
+                            <i class="fa-solid fa-square-phone"></i>
+                            <span> by phone: (31) 0000-0000</span>
+                            <div class="contatos_bar"></div>
+                        </div>
+
+                         <div class="contatos">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span> by e-mail: medicall@exemple.com.br</span>
+                            <div class="contatos_bar"></div>
+                        </div>
+
+                         <div class="contatos">
+                            <i class="fa-solid fa-envelopes-bulk"></i>
+                            <span> others: </span>
+                            <div class="contatos_bar"></div>
+                        </div>
+                    </div>
+            </div>
+        </aside>
+    </div>
+</section>
+
+<!-- Rodapé da página-->
+<footer>
+    <div class="container flexColumn">
+        <div class="footer_menu">
+            <div class="fm_1">
+                <div class="footer_title">Healt Insurance</div> 
+                <div class="footer_description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+
+            <div class="fm_2">
+                <div class="footer_title">Medical Records</div>
+                <div class="footer_description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+            
+            <div class="fm_3">
+                <div class="footer_title">Online Bill Pay</div>
+                <div class="footer_description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+        </div>
+
+        <div class="footer_area">
+            
+            <div class="footer_areaitem">
+                <div class="footer_area_title">Medicenter Clinic</div>
+                <div class="footer_area_icon"></div> 
+                <div class="footer_area_description1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi quae blanditiis.</p>
+                </div>
+                <div class="adress_contact">
+                    <div class="footer_area_adress">
+                        Medicall Clinic
+                        148 Street South
+                        South America
+                        1048, Brazil
+                    </div>
+                    <div class="contact">
+                        <div class="contact_number1">
+                            + 88 00000 0000
+                        </div>
+                        <div class="contact_number2">
+                            + 31 0000 0000
+                        </div>
+                        <div class="contact_number3">
+                            medicall@exemple.com
+                        </div>
+                    </div>
+                </div>
+                <div class="items_contact">
+                    <div class="facebook">
+                        
+                        <a href="" class="face_color">
+                        <i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://github.com/brianmduarte" class="git_hub"><i class="fa-brands fa-github"></i></a>
+                        
+                        <a href="" class="twitter"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="" class="gmail"><i class="fa-solid fa-square-envelope"></i></a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="footer_areaitem">
+                <div class="footer_area_title">Latest Posts</div>
+                <div class="footer_area_icon"></div> 
+
+                
+                    <div class="latest_description">
+                        <a href="">
+                            <i class="fa-solid fa-arrow-right"></i> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium aliquid officia.
+                            <p> 1 years ago</p>
+                        </a>
+                    </div>
+
+                    <div class="latest_description">
+                        <a href="">
+                            <i class="fa-solid fa-arrow-right"></i> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium aliquid officia.
+                            <p> 3 years ago</p>
+                        </a>
+                        </div>
+
+                        <div class="latest_description">
+                            <a href="">
+                                <i class="fa-solid fa-arrow-right"></i> 
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium aliquid officia.
+                                <p> 4 years ago</p>
+                            </a>
+                        </div>
+                 
+            </div>
+            
+            <div class="footer_areaitem">
+                <div class="footer_area_title">Latest Tweets</div>
+                <div class="footer_area_icon"></div> 
+
+                <div class="latest_tweets_description">
+                    <a href="">
+                        <i class="fa-solid fa-arrow-right"></i> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quae rerum animi suscipit enim inventore officia debitis voluptas.
+                        <p> 2 years ago</p>
+                    </a>
+                </div>
+
+                <div class="latest_tweets_description">
+                    <a href="">
+                        <i class="fa-solid fa-arrow-right"></i> 
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium aliquid officia.
+                        <p> 5 years ago</p>
+                    </a>
+                    </div>
+
+                    <div class="latest_tweets_description">
+                        <a href="">
+                            <i class="fa-solid fa-arrow-right"></i> 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quae rerum animi suscipit enim inventore officia debitis voluptas.
+                            <p> 6 years ago</p>
+                        </a>
+                    </div>
+            </div>
+        </div>
+        <div class="footer_copy">
+            Copyright - Todos os direitos reservados
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

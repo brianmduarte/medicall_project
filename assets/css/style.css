@@ -532,6 +532,10 @@ footer {
 
 @media (max-width:350px) {
     
+    aside {
+        height: 350px;
+    }
+
     .conteudo {
         justify-content: center;
     }
@@ -539,7 +543,10 @@ footer {
     .conteudo div {
         width: 90px;
         height: 90px;
-        
+    }
+
+    footer {
+        margin-top: 15px;
     }
 }
 
@@ -561,7 +568,11 @@ footer {
 
 @media (max-width:510px) {
     footer {
-        margin-top: 50px;
+        margin-top: 170px;
+    }
+
+    aside {
+        margin-bottom: 100px;
     }
 
     .news_thumbnail img {
